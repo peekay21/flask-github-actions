@@ -1,6 +1,6 @@
-from flask improt Flask
+from flask import Flask
 
-app = Flaks(__name__)
+app = Flask(__name__)
 app.config['TESTING'] = True
 
 @app.route("/")
