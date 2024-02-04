@@ -36,8 +36,7 @@ jobs:
       - name: Run tests
         run: python test_hello.py
 
-      - name: Run App 
-        run: python app.py
+    
           
           
       
