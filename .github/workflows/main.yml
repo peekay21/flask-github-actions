@@ -9,13 +9,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout
+        uses: actions/checkout@v2
 
       - name: Set up Python
-        uses: actions/setup-python
+        uses: actions/setup-python@v2
         with:
           python-version: 3.8
-          node-version: 20
+          node-version: 16
 
       - name: Create virtual environment
         run: 
