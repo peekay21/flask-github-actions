@@ -18,17 +18,17 @@ jobs:
           node-version: 16
 
       - name: Create virtual environment
-        run: 
+        run: |
           python -m venv venv
           source venv/bin/activate
 
       - name: Install dependencies
-        run:
+        run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
       - name: Print debugging infromation
-        run:
+        run: |
           echo "Python Version:" $(python --version)
           echo "Working Directory:" $(pwd)
           echo "Contents of Working Directory:" $(ls -l)
