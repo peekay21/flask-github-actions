@@ -37,7 +37,7 @@ jobs:
         run: python test_hello.py
 
       - name: Run App
-        run: python app.py
+        run: python print('Hello Pradip')
 
     
           
